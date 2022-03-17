@@ -1,0 +1,23 @@
+
+.Answer {
+	background-color: blueviolet;
+	border-radius: 3px;
+	color: #fff;
+	font-size: 18px;
+	padding: 5px 15px;
+	cursor: pointer;
+	&:hover {
+		background-color:#778BA5;
+		transition: all .33s ease-in;
+		
+	}
+	&:active {
+		text-decoration: line-through;
+	}
+	&.error {
+		background-color: #FF3855;
+	}
+	&.success {
+		background-color: #299617;
+	}
+}

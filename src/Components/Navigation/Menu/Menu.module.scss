@@ -1,0 +1,36 @@
+
+.Menu {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 80%;
+	max-width: 300px;
+	box-sizing: border-box;
+	background-color: #000;
+	color: red;
+	transform: translateX(0);
+	transition: transform .22s ease-in;
+	z-index: 90;
+	&.close {
+		transform: translateX(-300px);
+	}
+	ul {
+		li:not(:last-child){
+			margin-bottom: 15px;
+		}
+		li {
+			a {
+				color: red;
+				font-size: 30px;
+				text-decoration: none;
+				padding: 5px 10px;
+				transition:  opacity .3s;
+				&:hover,&:active {
+					opacity: .7;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,33 @@
+
+.FinishedQuiz {
+	padding: 10px 10px;
+	font-size: 18px;
+		font-weight: 500;
+	ul {
+		list-style: none;
+		
+		li:not(:last-child) {
+			margin-bottom: 15px;
+		}
+		
+		li {
+			i {
+				&.error {
+					color: #FF3855;
+				}
+				&.success {
+					color: #299617;
+				}
+			}
+		}
+		
+	}
+
+	
+}
+.results {
+	margin: 10px;
+	color: blueviolet;
+	font-size: 20px;
+	font-weight: 700;
+}

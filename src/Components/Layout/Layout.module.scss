@@ -1,0 +1,16 @@
+
+.Layout {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	margin: 0 auto;
+	background-image: linear-gradient(90deg,#FF7028 0%, #FFA040 100%);
+	overflow: hidden;
+	box-sizing: border-box;
+	main {
+		display: flex;
+		flex-direction: column;
+		flex-grow: 1;
+	}
+}

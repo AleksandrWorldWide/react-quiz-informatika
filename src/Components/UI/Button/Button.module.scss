@@ -1,0 +1,21 @@
+
+.Button {
+	font-size: 18px;
+	padding: 5px 10px;
+	border-radius: 5px;
+	color: #fff;
+	margin-right: 25px;
+	cursor: pointer;
+	&:hover {
+		color: blueviolet;
+		background-color: #FFB077;
+		text-decoration: underline;
+	}
+	
+}
+.primary {
+	background-color: blueviolet;
+}
+.success {
+	background-color: #00CC33;
+}

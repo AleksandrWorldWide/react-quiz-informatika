@@ -1,0 +1,19 @@
+
+.QuizList {
+	margin: 0 auto;
+	margin-top: 200px;
+	ul {
+		list-style: none;
+		li {
+			margin-top: 15px;
+			font-size: 22px;
+			a {
+				text-decoration: none;
+				&:hover {
+					color: green;
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+}
