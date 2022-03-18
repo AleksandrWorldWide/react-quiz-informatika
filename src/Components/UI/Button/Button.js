@@ -6,11 +6,12 @@ const Button = props => {
 		css.Button,
 		css[props.type]
 	]
-	console.log(css)
+	console.log(props.disabled)
 	return (
 		<button 
 			onClick={props.click}
 			className={cls.join(' ')}
+			disabled={props.disabled}
 		>
 			{props.children}
 		</button>
